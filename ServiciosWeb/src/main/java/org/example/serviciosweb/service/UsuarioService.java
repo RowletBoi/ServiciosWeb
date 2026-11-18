@@ -45,7 +45,7 @@ public class UsuarioService {
             Usuario usuario = new Usuario(
                     nodo.path("id").asInt(),
                     nodo.path("name").asText(),
-                    nodo.path("usaername").asText(),
+                    nodo.path("username").asText(),
                     nodo.path("email").asText(),
                     nodo.path("phone").asText(),
                     nodo.path("address").path("city").asText(),

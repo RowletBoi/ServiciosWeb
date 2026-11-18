@@ -5,7 +5,7 @@ public class Usuario {
     private int id;
     private String nombre;
     private String username;
-    private String email;
+    private String correo;
     private String telefono;
     private String ciudad;
     private String empresa;
@@ -17,7 +17,7 @@ public class Usuario {
         this.id = id;
         this.nombre = nombre;
         this.username = username;
-        this.email = email;
+        this.correo = email;
         this.telefono = telefono;
         this.ciudad = ciudad;
         this.empresa = empresa;
@@ -47,12 +47,12 @@ public class Usuario {
         this.username = username;
     }
 
-    public String getEmail() {
-        return email;
+    public String getCorreo() {
+        return correo;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setCorreo(String correo) {
+        this.correo = correo;
     }
 
     public String getTelefono() {
