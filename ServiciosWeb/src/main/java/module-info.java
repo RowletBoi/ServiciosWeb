@@ -3,6 +3,7 @@ module org.example.serviciosweb {
     requires javafx.fxml;
     requires java.net.http;
     requires com.fasterxml.jackson.databind;
+    requires java.sql;
 
 
 
